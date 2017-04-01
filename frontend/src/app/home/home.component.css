@@ -1,0 +1,26 @@
+#email-entry {
+  float: left;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.btn {
+  float: left;
+  background: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+}
+
+.email-input-section {
+  margin-top: 15px;
+}
+
+#copied-notification {
+  opacity: 0;
+  visibility: hidden;
+  padding: 5px 5px 5px 15px;
+}

@@ -1,0 +1,28 @@
+#projects-section ul {
+  list-style-type: none;
+  padding: 0px 0px;
+}
+
+.project-card {
+  float: left;
+  width: 200px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card:hover {
+  cursor: pointer;
+}
+
+.project-card-header {
+  margin: 0px;
+}
+
+/*
+#projects-section {
+  height: 600px;
+  overflow-y: scroll;
+  padding-right: 20px;
+}
+*/

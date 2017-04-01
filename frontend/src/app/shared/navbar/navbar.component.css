@@ -1,0 +1,12 @@
+#main-nav ul {
+  padding: 0px 0px;
+}
+
+#main-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.selected-nav {
+  color: black !important;
+}

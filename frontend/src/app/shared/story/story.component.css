@@ -1,0 +1,16 @@
+#storyHeader {
+  float: left;
+  max-width: 50%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#storyDate {
+  float: right;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+#storyArticles {
+  clear: both;
+}

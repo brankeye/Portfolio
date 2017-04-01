@@ -1,0 +1,9 @@
+<section id="projects-section" class="page-section">
+  <div class="project-card sliding-middle-out" *ngFor="let project of projects" (click)="goToProjectDetails(project.id)">
+    <div class="project-card-content">
+      <h3 class="project-card-header">{{project.title}}</h3>
+      <p>{{project.shortDescription}}</p>
+      <p>{{project.languages.join(', ')}}</p>
+    </div>
+  </div>
+</section>

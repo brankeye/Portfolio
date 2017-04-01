@@ -1,0 +1,12 @@
+<section>
+  <h3 id="storyHeader">{{story.title}}</h3>
+  <p id="storyDate">{{dateString}}</p>
+  <article id="storyArticles">
+    <p>{{story.description}}</p>
+    <ul *ngFor="let detail of story.details">
+      <li type="disc">
+        <p>{{detail}}</p>
+      </li>
+    </ul>
+  </article>
+</section>

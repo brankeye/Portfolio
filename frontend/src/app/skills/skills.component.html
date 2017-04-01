@@ -1,0 +1,6 @@
+<section id="skills-section" class="page-section">
+  <input id="skills-search-box" type="search" placeholder="Search me!" [(ngModel)]="skillsFilterText" />
+  <div *ngFor="let skill of skills | skillsFilter:skillsFilterText" class="skill-block">
+    {{skill}}
+  </div>
+</section>

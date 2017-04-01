@@ -1,0 +1,25 @@
+#skills-section {
+  width: 100%;
+}
+
+#skills-search-box {
+  display: block;
+  border: 0px;
+  border-bottom: 1px solid black;
+  padding: 0px 5px 5px 0px;
+  width: 100%;
+  outline: none;
+}
+
+.skill-block {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px 5px 5px 0px;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.skill-block:hover {
+  background: #eeeeee;
+}
