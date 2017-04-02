@@ -4,7 +4,8 @@
 
 #main-nav ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
+  padding: 0px 0px;
 }
 
 .selected-nav {

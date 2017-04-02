@@ -2,10 +2,14 @@ main {
   margin: 0 auto;
   max-width: 715px !important;
   min-width: 250px !important;
-  padding: 70px 60px 5px 60px;
+  padding: 20px 10px 5px 10px;
+}
+
+#main-title {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 app-links {
   display: inline-block;
-  margin-left: 40px;
 }
