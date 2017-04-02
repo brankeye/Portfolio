@@ -7,6 +7,12 @@ body {
   float: left;
   padding: 15px 5px 5px 0px;
   width: 100%;
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 .nav-link:link {
@@ -43,6 +49,11 @@ body {
   width: 0px;
   background: transparent;
   transition: width 0.4s linear, background-color 0.4s linear;
+}
+
+.sliding-middle-out:active:after {
+  width: 100%;
+  background: black;
 }
 
 .sliding-middle-out:hover:after {
