@@ -12,10 +12,23 @@ import { StoryComponent } from './story/story.component';
  */
 
 @NgModule({
-  imports: [CommonModule, RouterModule],
-  declarations: [LinksComponent, NavbarComponent, StoryComponent],
-  exports: [LinksComponent, NavbarComponent, StoryComponent,
-    CommonModule, FormsModule, RouterModule]
+  imports: [
+    CommonModule,
+    RouterModule
+  ],
+  declarations: [
+    LinksComponent,
+    NavbarComponent,
+    StoryComponent
+  ],
+  exports: [
+    LinksComponent,
+    NavbarComponent,
+    StoryComponent,
+    CommonModule,
+    FormsModule,
+    RouterModule
+  ]
 })
 export class SharedModule {
 

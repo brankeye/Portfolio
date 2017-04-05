@@ -12,6 +12,7 @@ import { ProjectsModule } from './projects/projects.module';
 import { WorkModule } from './work/work.module';
 import { SkillsModule } from './skills/skills.module';
 import { ProjectModule } from './project/project.module';
+import { DataService } from './services/data.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { ProjectModule } from './project/project.module';
     SkillsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
